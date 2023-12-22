@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "UGX6OhJnQBwzYxm9g7NZ47c0fldnQvxqV9v8ZVJqnyA=",
+  "Source": "KanjiFun",
+  "BasePath": "_content/KanjiFun",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "KanjiFun\\wwwroot",
+      "Source": "KanjiFun",
+      "ContentRoot": "C:\\Users\\Dean\\devenv\\KanjiFun\\wwwroot\\",
+      "BasePath": "_content/KanjiFun",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Dean\\devenv\\KanjiFun\\wwwroot\\css\\main.7c9f2b1f6544eab4c241.css",
+      "SourceId": "KanjiFun",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dean\\devenv\\KanjiFun\\wwwroot\\",
+      "BasePath": "_content/KanjiFun",
+      "RelativePath": "css/main.7c9f2b1f6544eab4c241.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.7c9f2b1f6544eab4c241.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dean\\devenv\\KanjiFun\\wwwroot\\index.html",
+      "SourceId": "KanjiFun",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dean\\devenv\\KanjiFun\\wwwroot\\",
+      "BasePath": "_content/KanjiFun",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Dean\\devenv\\KanjiFun\\wwwroot\\main.7c9f2b1f6544eab4c241.js",
+      "SourceId": "KanjiFun",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dean\\devenv\\KanjiFun\\wwwroot\\",
+      "BasePath": "_content/KanjiFun",
+      "RelativePath": "main.7c9f2b1f6544eab4c241.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main.7c9f2b1f6544eab4c241.js"
+    }
+  ]
+}

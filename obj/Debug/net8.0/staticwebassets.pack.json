@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dean\\devenv\\KanjiFun\\wwwroot\\css\\main.7c9f2b1f6544eab4c241.css",
+      "PackagePath": "staticwebassets\\css\\main.7c9f2b1f6544eab4c241.css"
+    },
+    {
+      "Id": "C:\\Users\\Dean\\devenv\\KanjiFun\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Dean\\devenv\\KanjiFun\\wwwroot\\main.7c9f2b1f6544eab4c241.js",
+      "PackagePath": "staticwebassets\\main.7c9f2b1f6544eab4c241.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KanjiFun.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KanjiFun.props",
+      "PackagePath": "build\\KanjiFun.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KanjiFun.props",
+      "PackagePath": "buildMultiTargeting\\KanjiFun.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KanjiFun.props",
+      "PackagePath": "buildTransitive\\KanjiFun.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
