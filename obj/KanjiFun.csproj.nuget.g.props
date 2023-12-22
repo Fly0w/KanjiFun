@@ -13,10 +13,30 @@
     <SourceRoot Include="C:\Users\Dean\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
-  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.typescript.msbuild\5.3.3\build\Microsoft.TypeScript.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)microsoft.typescript.msbuild\5.3.3\build\Microsoft.TypeScript.MSBuild.props')" />
-  </ImportGroup>
-  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_TypeScript_MSBuild Condition=" '$(PkgMicrosoft_TypeScript_MSBuild)' == '' ">C:\Users\Dean\.nuget\packages\microsoft.typescript.msbuild\5.3.3</PkgMicrosoft_TypeScript_MSBuild>
-  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)techgems.vitedotnet\0.1.1\contentFiles\any\net7.0\Plugin\package-lock.json" Condition="Exists('$(NuGetPackageRoot)techgems.vitedotnet\0.1.1\contentFiles\any\net7.0\Plugin\package-lock.json')">
+      <NuGetPackageId>TechGems.ViteDotNet</NuGetPackageId>
+      <NuGetPackageVersion>0.1.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Plugin\package-lock.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)techgems.vitedotnet\0.1.1\contentFiles\any\net7.0\Plugin\package.json" Condition="Exists('$(NuGetPackageRoot)techgems.vitedotnet\0.1.1\contentFiles\any\net7.0\Plugin\package.json')">
+      <NuGetPackageId>TechGems.ViteDotNet</NuGetPackageId>
+      <NuGetPackageVersion>0.1.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Plugin\package.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)techgems.vitedotnet\0.1.1\contentFiles\any\net7.0\Plugin\tsconfig.json" Condition="Exists('$(NuGetPackageRoot)techgems.vitedotnet\0.1.1\contentFiles\any\net7.0\Plugin\tsconfig.json')">
+      <NuGetPackageId>TechGems.ViteDotNet</NuGetPackageId>
+      <NuGetPackageVersion>0.1.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Plugin\tsconfig.json</Link>
+    </Content>
+  </ItemGroup>
 </Project>
